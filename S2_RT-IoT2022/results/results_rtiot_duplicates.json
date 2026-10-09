@@ -1,0 +1,87 @@
+{
+ "records": 123117,
+ "duplicate_rows_with_ports_incl_label": 5195,
+ "duplicate_rows_with_ports_features_only": 5202,
+ "distinct_portfree_vectors": 18272,
+ "duplicate_rows_portfree_features": 104845,
+ "portfree_vectors_with_conflicting_labels": 10,
+ "per_label": {
+  "ARP_poisioning": {
+   "records": 7750,
+   "distinct_vectors": 5298
+  },
+  "DDOS_Slowloris": {
+   "records": 534,
+   "distinct_vectors": 533
+  },
+  "DOS_SYN_Hping": {
+   "records": 94659,
+   "distinct_vectors": 57
+  },
+  "MQTT_Publish": {
+   "records": 4146,
+   "distinct_vectors": 4141
+  },
+  "Metasploit_Brute_Force_SSH": {
+   "records": 37,
+   "distinct_vectors": 36
+  },
+  "NMAP_FIN_SCAN": {
+   "records": 28,
+   "distinct_vectors": 5
+  },
+  "NMAP_OS_DETECTION": {
+   "records": 2000,
+   "distinct_vectors": 75
+  },
+  "NMAP_TCP_scan": {
+   "records": 1002,
+   "distinct_vectors": 44
+  },
+  "NMAP_UDP_SCAN": {
+   "records": 2590,
+   "distinct_vectors": 196
+  },
+  "NMAP_XMAS_TREE_SCAN": {
+   "records": 2010,
+   "distinct_vectors": 80
+  },
+  "Thing_Speak": {
+   "records": 8108,
+   "distinct_vectors": 7599
+  },
+  "Wipro_bulb": {
+   "records": 253,
+   "distinct_vectors": 219
+  }
+ },
+ "test_records_with_exact_copy_in_train": [
+  0.8547216807450726,
+  0.8546946068875894,
+  0.8539094650205762,
+  0.8541802035954082,
+  0.8548841238899718
+ ],
+ "E3_overlap": {
+  "NMAP_XMAS_TREE_SCAN": {
+   "records": 2010,
+   "share_identical_to_retained_attack_vector": 0.0,
+   "share_identical_to_benign_vector": 0.0
+  },
+  "NMAP_FIN_SCAN": {
+   "records": 28,
+   "share_identical_to_retained_attack_vector": 0.0,
+   "share_identical_to_benign_vector": 0.0
+  },
+  "DDOS_Slowloris": {
+   "records": 534,
+   "share_identical_to_retained_attack_vector": 0.0019,
+   "share_identical_to_benign_vector": 0.0019
+  },
+  "Metasploit_Brute_Force_SSH": {
+   "records": 37,
+   "share_identical_to_retained_attack_vector": 0.0541,
+   "share_identical_to_benign_vector": 0.0
+  }
+ }
+}

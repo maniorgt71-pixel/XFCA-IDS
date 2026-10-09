@@ -1,0 +1,29 @@
+duplicate-free: 18262 records, 92 features, class counts [11952, 589, 396, 35, 5290]
+E1 5class seed 42: base acc 0.9883 hyb acc 0.9865 S=['flow_iat.min', 'flow_RST_flag_count', 'fwd_pkts_payload.avg'] (11s)
+E1 5class seed 43: base acc 0.9872 hyb acc 0.9821 S=['flow_RST_flag_count', 'fwd_PSH_flag_count', 'fwd_pkts_payload.avg'] (10s)
+E1 5class seed 44: base acc 0.9887 hyb acc 0.9861 S=['flow_iat.min', 'flow_RST_flag_count', 'fwd_pkts_payload.avg'] (10s)
+E1 5class seed 45: base acc 0.9859 hyb acc 0.9819 S=['flow_iat.min', 'flow_RST_flag_count', 'fwd_pkts_payload.avg'] (11s)
+E1 5class seed 46: base acc 0.9861 hyb acc 0.9843 S=['flow_RST_flag_count', 'flow_iat.min', 'fwd_pkts_payload.avg'] (12s)
+E1 binary seed 42: base acc 0.9938 hyb acc 0.9920 S=['flow_iat.min', 'flow_RST_flag_count', 'service_ssl'] (3s)
+E1 binary seed 43: base acc 0.9914 hyb acc 0.9854 S=['flow_iat.min', 'flow_RST_flag_count', 'service_dns'] (4s)
+E1 binary seed 44: base acc 0.9958 hyb acc 0.9911 S=['flow_iat.min', 'flow_RST_flag_count', 'flow_pkts_payload.min'] (4s)
+E1 binary seed 45: base acc 0.9912 hyb acc 0.9901 S=['flow_iat.min', 'flow_RST_flag_count', 'service_-'] (4s)
+E1 binary seed 46: base acc 0.9918 hyb acc 0.9898 S=['flow_iat.min', 'flow_RST_flag_count', 'service_-'] (5s)
+E2 top-5: ['flow_iat.min', 'fwd_pkts_payload.avg', 'bwd_data_pkts_tot', 'active.min', 'bwd_pkts_tot'] stability [0.873 0.837 0.862]
+E3 seed 42: pooled base 0.986 hyb 0.980
+E3 seed 43: pooled base 0.983 hyb 0.974
+E3 seed 44: pooled base 0.983 hyb 0.959
+E3 seed 45: pooled base 0.983 hyb 0.995
+E3 seed 46: pooled base 0.988 hyb 0.940
+E4 {'base_kb': 1201.17, 'hyb_kb': 1310.42, 'base_us': 12.8, 'hyb_us': 12.84}
+5class:acc           base 0.9873 hyb 0.9842 d -0.0031 wins 0 p 0.0625
+5class:macro_f1      base 0.9228 hyb 0.9184 d -0.0044 wins 0 p 0.0625
+5class:macro_p       base 0.9476 hyb 0.9345 d -0.0131 wins 0 p 0.0625
+5class:macro_r       base 0.9044 hyb 0.9074 d +0.0030 wins 3 p 0.6250
+5class:weighted_f1   base 0.9872 hyb 0.9842 d -0.0030 wins 0 p 0.0625
+binary:acc           base 0.9928 hyb 0.9897 d -0.0031 wins 0 p 0.0625
+binary:f1            base 0.9896 hyb 0.9851 d -0.0045 wins 0 p 0.0625
+binary:precision     base 0.9884 hyb 0.9836 d -0.0048 wins 0 p 0.0625
+binary:recall        base 0.9908 hyb 0.9866 d -0.0042 wins 1 p 0.1250
+done
+ALLDONE

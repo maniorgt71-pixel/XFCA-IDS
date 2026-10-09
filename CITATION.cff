@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "XFCA-IDS: Supplementary Files S1-S4 (code and raw results) for SHAP-Consistency-Guided Adversarial Training for Cross-Domain IoT Intrusion Detection"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/maniorgt71-pixel/XFCA-IDS"
+type: software
+authors:
+  - given-names: Manivannan
+    family-names: T
+    affiliation: "St Joseph University, India; Lincoln University College, Malaysia"
+  - given-names: Upendra
+    family-names: Kumar
+    affiliation: "Institute of Engineering and Technology, Lucknow, India; Lincoln University College, Malaysia"
+  - given-names: Shashi Kant
+    family-names: Gupta
+    affiliation: "Lincoln University College, Malaysia; Azerbaijan University of Architecture and Construction, Azerbaijan"
+  - given-names: Diaa Salama
+    family-names: AbdElminaam
+    affiliation: "Benha University, Egypt; Jadara University, Jordan"
+  - given-names: Deema Mohammed
+    family-names: Alsekait
+    affiliation: "Princess Nourah bint Abdulrahman University, Saudi Arabia"
+  - given-names: Abdallah Mohammad
+    family-names: Abualkishik
+    affiliation: "Sohar University, Oman"
+keywords:
+  - intrusion detection
+  - IoT security
+  - SHAP
+  - XGBoost
+  - domain-adversarial training
+  - cross-dataset generalization

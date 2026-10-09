@@ -1,0 +1,7 @@
+42 ['same_srv_rate', 'service=ecr_i', 'service=eco_i'] {'RAW': (0.542, 0.78), 'BASE': (0.56, 0.777), 'DA': (0.564, 0.791)} (115s)
+43 ['same_srv_rate', 'service=ecr_i', 'service=eco_i'] {'RAW': (0.542, 0.78), 'BASE': (0.551, 0.776), 'DA': (0.547, 0.752)} (228s)
+44 ['same_srv_rate', 'service=ecr_i', 'service=eco_i'] {'RAW': (0.542, 0.78), 'BASE': (0.533, 0.762), 'DA': (0.582, 0.788)} (336s)
+45 ['same_srv_rate', 'service=ecr_i', 'service=eco_i'] {'RAW': (0.542, 0.78), 'BASE': (0.539, 0.778), 'DA': (0.547, 0.762)} (446s)
+46 ['same_srv_rate', 'service=ecr_i', 'service=eco_i'] {'RAW': (0.542, 0.78), 'BASE': (0.584, 0.785), 'DA': (0.547, 0.768)} (563s)
+{'train': {'Benign': 67343, 'DoS/DDoS': 45927, 'Reconnaissance': 11656, 'BruteForce': 995, 'WebInject': 52}, 'test': {'Benign': 9711, 'DoS/DDoS': 7458, 'Reconnaissance': 2421, 'BruteForce': 2754, 'WebInject': 200}, 'n_features': 122, 'unseen_subtypes': ['apache2', 'httptunnel', 'mailbomb', 'mscan', 'named', 'processtable', 'ps', 'saint', 'sendmail', 'snmpgetattack', 'snmpguess', 'sqlattack', 'udpstorm', 'worm', 'xlock', 'xsnoop', 'xterm'], 'unseen_records': 3750}
+saved
